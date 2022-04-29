@@ -1,35 +1,3 @@
-// let num = 0;
-// while (num < 50) {
-//   console.log(`This is number ${num}`);
-//   num++;
-// }
-
-// while (true) {
-//   let game = prompt(
-//     "Guess the number that when multipled by itself and added to that multiple, will produce 12"
-//   );
-
-//   if (game === "3") {
-//     break;
-//   }
-//   alert("Wrong Answer, Try again");
-// }
-
-// while (true) {
-//   let game = prompt("Guess the number between random numbers of 1-10");
-//   game = Number(game);
-//   let randomNumber = Math.floor(Math.random() * 10);
-
-//   if (game === randomNumber) {
-//     alert("you Win");
-//     break;
-//   } else {
-//     alert("Try again!!");
-//   }
-
-//   console.log(randomNumber);
-// }
-
 // STAR WARS PROJECT CODE
 
 let characterName = document.getElementById("name");
@@ -65,3 +33,20 @@ button.addEventListener("click", (e) => {
       // console.log(homeworld);
     });
 });
+
+//GUESSING GAME
+
+// while (true) {
+//   let game = prompt("Guess the number between random numbers of 1-10");
+//   game = Number(game);
+//   let randomNumber = Math.floor(Math.random() * 10);
+
+//   if (game === randomNumber) {
+//     alert("you Win");
+//     break;
+//   } else {
+//     alert("Try again!!");
+//   }
+
+//   console.log(randomNumber);
+// }
