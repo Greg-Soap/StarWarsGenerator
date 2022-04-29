@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(216, 214, 214);
+  padding: 1% 5%;
+  background-image: url("d7a61190a836bdcfc62bf97af4f4c74b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container {
+  text-align: center;
+  padding: 1% 4%;
+  font-size: 1.5rem;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 2% 4%;
+  background-color: transparent;
+}
+.card img {
+  width: 50%;
+  max-height: 450px;
+}
+.card-body {
+  align-self: center;
+  width: 45%;
+  text-align: start;
+}
+.card-details a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1rem;
+}
+.card-details span {
+  text-transform: capitalize;
+}
+b {
+  text-transform: capitalize;
+}
