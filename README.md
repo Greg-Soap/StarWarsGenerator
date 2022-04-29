@@ -1,2 +1,2 @@
 # StarWarsGenerator
-My own self-improvement quest involves randomly generating Star Wars characters and their corresponding details. 
+This self-improvement project involves randomly generating Star Wars characters and their corresponding details. 
